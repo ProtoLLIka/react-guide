@@ -1,4 +1,4 @@
-import { Currencies } from "../types/common";
+import { Currencies } from "@type/common";
 
 export const getAvailableCurrencies = async (): Promise<Currencies | null> => {
   const res = await new Promise<Currencies>((res)=>{

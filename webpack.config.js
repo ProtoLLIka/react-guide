@@ -29,6 +29,12 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      '@api': path.resolve(__dirname, './src/api'),
+      '@components': path.resolve(__dirname, './src/components'),
+      '@store': path.resolve(__dirname, './src/store'),
+      '@type': path.resolve(__dirname, './src/type'),
+    },
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
   },
   plugins: [

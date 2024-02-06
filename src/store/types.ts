@@ -1,5 +1,5 @@
 import { store } from '.';
-import { Currencies } from '../types/common';
+import { Currencies } from '@type/common';
 
 export type TReducer = {
   currencies: Currencies

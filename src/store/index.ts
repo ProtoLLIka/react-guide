@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import { useDispatch } from 'react-redux';
-import { Any } from '../types/common';
+import { Any } from '@type/common';
 
 import { AppDispatch, TReducer } from './types';
 import { reducer } from './reducer';

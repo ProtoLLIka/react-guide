@@ -3,7 +3,7 @@ import { PayloadAction, createReducer } from '@reduxjs/toolkit';
 import { action, asyncAction } from './actions';
 
 import { TReducer } from './types';
-import { Currencies } from '../types/common';
+import { Currencies } from '@type/common';
 
 const initialState: TReducer = {
   currencies: {rub: 0, usd: 0}
