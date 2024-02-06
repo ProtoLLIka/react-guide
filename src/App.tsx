@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Fetcher } from "./components/Fetcher";
+import { Button } from "./components/Button";
+import { Provider } from "react-redux";
+import { store } from "./store";
 
 const App = () => {
   return (
-    <div>Hello World!</div>
-  )
-}
+    <Provider store={store}>
+      <Fetcher>
+        <Button></Button>
+      </Fetcher>
+    </Provider>
+  );
+};
 
-export default App
+export default App;
