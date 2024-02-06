@@ -1,5 +1,5 @@
 node_modules
 .DS_Store
 .husky
-bundle.js
+bundle.js*
 .env
